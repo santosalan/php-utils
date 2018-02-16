@@ -1,5 +1,7 @@
 <?php
 
+namespace SantosAlan\PhpUtils;
+
 class StringUtil {
 
     /**
