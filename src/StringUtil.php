@@ -2,7 +2,13 @@
 
 class StringUtil {
 
-    public static function strClear($text) 
+    /**
+     * Clear String
+     * 
+     * @param  String $text 
+     * @return String       
+     */
+    public static function clear($text) 
     {
         $utf8 = array(
             '/[áàâãªä]/u'   =>   'a',
